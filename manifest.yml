@@ -4,5 +4,5 @@ applications:
   mem: 512M
   path: target/hello-java-1.0.war
   services:
-    ${name}-apm:
-      type: newrelic
+   # New Relic Standard Plan
+   - newrelic-std 
